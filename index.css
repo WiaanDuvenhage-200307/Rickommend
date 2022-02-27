@@ -8,6 +8,7 @@ html{
 
 h1{
     font-family: 'Anton';
+    color: black;
 }
 
 li{
@@ -15,10 +16,17 @@ li{
     font-family: 'Anton';
 }
 
-.welcome-msg{
+li:hover{
     background-color: white;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.welcome-msg{
+    background-color: black;
+    color: white;
     border-radius: 10px;
-    font-size: large;
+    font-size: 36px;
     font-family: 'Anton';
     padding: 10px;
 }
@@ -32,7 +40,9 @@ li{
 
 a:link, a:visited{
     text-decoration: none;
+    color: black;
 };
+
 
 .heading{
     font-size: 72px;
@@ -41,3 +51,4 @@ a:link, a:visited{
 h1{
     color: black;
 }
+
