@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito:ital@0;1&display=swap');
+
+html{
+    background-image: url("assets/img/bg-img.png");
+    width: 100%;
+}
+
+h1{
+    font-family: 'Anton';
+}
+
+li{
+    display: inline;
+    font-family: 'Anton';
+}
+
+.welcome-msg{
+    background-color: white;
+    border-radius: 10px;
+    font-size: large;
+    font-family: 'Anton';
+    padding: 10px;
+}
+
+.welcome-msg-head{
+    border-radius: 10px;
+    font-size: 100px;
+    font-family: 'Anton';
+    padding: 10px;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+};
+
+.heading{
+    font-size: 72px;
+}
+
+h1{
+    color: black;
+}
