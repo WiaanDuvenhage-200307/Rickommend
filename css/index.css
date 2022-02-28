@@ -1,14 +1,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito:ital@0;1&display=swap');
 
+.title{
+    color: white;
+}
+
+
 html{
-    background-image: url("../assets/img/bg-img.png");
+    background-image: url("../assets/img/bg-img.jpg");
     width: 100%;
 }
 
 h1{
     font-family: 'Anton';
-    color: black;
+    color: white;
+}
+
+h2{
+    font-family: 'Nunito';
+    color: #e3e3e3;
 }
 
 li{
@@ -17,14 +27,15 @@ li{
 }
 
 li:hover{
-    background-color: white;
+    background-color: #c7fa6c;
     border-radius: 5px;
     transition: 0.2s;
+    padding: 4px;
+    color: black;
 }
 
 .welcome-msg{
-    background-color: black;
-    color: white;
+    color: #c7fa6c;
     border-radius: 10px;
     font-size: 36px;
     font-family: 'Anton';
@@ -32,23 +43,15 @@ li:hover{
 }
 
 .welcome-msg-head{
-    border-radius: 10px;
-    font-size: 100px;
     font-family: 'Anton';
-    padding: 10px;
 }
 
-a:link, a:visited{
+
+a:visited{
     text-decoration: none;
-    color: black;
-};
-
-
-.heading{
-    font-size: 72px;
+    color: white;
 }
 
-h1{
-    color: black;
+.is-primary{
+    background-color: #c7fa6c;
 }
-
