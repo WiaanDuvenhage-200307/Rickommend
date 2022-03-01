@@ -3,66 +3,106 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rickommend</title>
-    <link rel="icon" href="assets/img/logo.svg">
+    <title>Rickommend | The best Rick n Morty episode recommender</title>
+    <link rel="icon" href="assets/img/web-icon.svg">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/index.css">
     <script src="js/index.js"></script>
   </head>
   <body>
 
-  <header class="section">
-    <div class="level">
+    <nav class="navbar is-transparent">
+      <div class="navbar-brand">
+        <a href="#"><img src="assets/img/logo.svg" alt="" width="200px"></a>
+        <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div> <!--Navbar Burger-->
+      </div> <!--Navbar Brand-->
+    
+      <div class="navbar-menu">
+    
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <p class="control">
+              <a class="button secondary" href="pages/characters.html">
+                <span>
+                  Character List
+                </span>
+              </a>
+            </p><!--control-->
+          </div><!--Navbar item-->
+        </div><!--navbar-end-->
+      </div> <!--navbar-menu-->
+    </nav>
 
-      <div class="level-left">
-        <img src="assets/img/logo.svg" alt="" width="50px">
-      
-          <a href="#"><h1 class="title">
-          Rickommend
-          </h1></a>
-        </div>
-      
-        <div class="level-right">
-          <ul>
-            <a href="pages/characters.html"><li>Characters</li></a>
-            <li>|</li>
-            <a href="pages/about.html"><li>About Us</li></a>
-          </ul>
-        </div>
-
-    </div> <!--Level-->
-  </header>
-
-  <section class="section">
-    <div class="content">
+  <section class="content">
+    <div class=" hero">
       <div class=" title welcome-msg-head level-left is-1">
-          <p>Welcome to Rickommend!</p>
+        <p>Welcome to Rickommend!</p>
       </div>
-  </div>
-  
-  <div class="subtitle welcome-msg">
+    </div>
+    
+    <div class="subtitle welcome-msg">
       <p>
       The best web app with helping you find your Rick & Morty episode that is catered towards your personlity.
       </p>
-  </div>
-
-  <div class="level">
-      <a href="pages/test.html"><button class="button is-large is-primary">GET STARTED</button></a>
-  </div>
-
-  <div class="level">
-      <button class="video-button button is-primary is-large is-light ">Watch The First Episode</button>
-  </div>
-
-  <!-- TODO | Add Footer! -->
-  <footer class="footer">
-    <div class="content">
-      <p>
-        <h2>Rickommend©2021</h2>
-      </p>
     </div>
-  </footer>
+
+    <div class="level">
+      <a href="pages/test.html"><button class="primary button is-large ">GET STARTED</button></a>
+    </div>
+
+    <div class="level url">
+      
+    </div>
+
+    <!-- TODO | Add Footer! -->
+    <footer class="footer">
+      <div class="content">
+        <p class="info">Rickommend©2022</p>
+        <button class="button">
+          <span class="icon">
+            <i class="fa fa-github"></i>
+          </span>
+          <span>GitHub</span>
+        </button>
+
+        <button class="button">
+          <span class="icon">
+            <i class="fa fa-facebook"></i>
+          </span>
+          <span>Facebook</span>
+        </button>
+
+        <button class="button">
+          <span class="icon">
+            <i class="fa fa-instagram"></i>
+          </span>
+          <span>Instagram</span>
+        </button>
+
+        <button class="button">
+          <span class="icon">
+            <i class="fa fa-youtube"></i>
+          </span>
+          <span>Youtube</span>
+        </button>
+
+        <div class="content legal-info">
+          <p><u> Policy</u></p>
+          <p><u>Terms of Service</u></p>
+          <p><u>About Us</u></p>
+        </div>
+
+      </div>
+
+      
+    </footer>
+
   </section>
   </body>
 </html>

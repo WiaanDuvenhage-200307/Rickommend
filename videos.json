@@ -7,22 +7,11 @@
         },
 
         {
-            "videoID" : 0,
-            "episodeName" : "Wake Up, Morty",
-            "url" : "https://www.youtube.com/watch?v=qtdCIs6JdXg"
-        },
-
-        {
-            "videoID" : 0,
-            "episodeName" : "Wake Up, Morty",
-            "url" : "https://www.youtube.com/watch?v=qtdCIs6JdXg"
-        },
-
-        {
-            "videoID" : 0,
+            "videoID" : 1,
             "episodeName" : "Wake Up, Morty",
             "url" : "https://www.youtube.com/watch?v=qtdCIs6JdXg"
         }
 
+        
     ]
 }
