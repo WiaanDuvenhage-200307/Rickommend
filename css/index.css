@@ -45,9 +45,17 @@ a:visited{
 .footer{
     background-color: transparent;
     border-top: 2px solid white;
-    text-align: center;
-    margin: 0 auto;
+    text-align: left;
 }
+
+.footer, .icon{
+    text-align: center;
+}
+
+.footer-logo{
+    float: left;
+}
+
 
 
 .primary{
@@ -109,7 +117,17 @@ span:hover{
     border-radius: 20px;
 }
 
+.char-name{
+    font-family: 'Anton';
+    color: white;
+    font-size: 36px;
+}
+
 .char-img{
     width: 80%;
     height: 80%;
+    border-radius: 30px;
+    box-shadow: -25px -5px 35px -16px rgba(89,217,10,0.75);
+    -webkit-box-shadow: -25px -5px 35px -16px rgba(89,217,10,0.75);
+    -moz-box-shadow: -25px -5px 35px -16px rgba(89,217,10,0.75);;
 }
