@@ -6,40 +6,100 @@
     <title>Rickommend</title>
     <link rel="icon" href="../assets/img/logo.svg">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/index.css">
   </head>
   <body>
+  <section>
     <!-- TODO | Add one question to questionaire -->
-    <!-- TODO | Update Nav -->
-    <!-- TODO | Footer -->
-  <section class="section">
-    <div class="level">
-
-        <div class="level-left">
-            <img src="../assets/img/logo.svg" alt="" width="50px">
-      
-            <a href="../index.html"><h1 class="title">
-              Rickommend
-            </h1></a>
-          </div>
-      
-          <div class="level-right">
-              <ul>
-                  <a href="characters.html"><li>Character List</li></a>
-                  <li>|</li>
-                  <a href="about.html"><li>About Us</li></a>
-              </ul>
-            </div>
-
-    </div>
+    <nav class="navbar is-transparent">
+      <div class="navbar-brand">
+        <a href="../index.html"><img src="../assets/img/logo.svg" alt="" width="200px"></a>
+        <div class="navbar-burger" data-target="">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div> <!--Navbar Burger-->
+      </div> <!--Navbar Brand-->
+    
+      <div class="navbar-menu">
+    
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <p class="control">
+              <a class="button secondary" href="characters.html">
+                <span>
+                  Character List
+                </span>
+              </a>
+            </p><!--control-->
+          </div><!--Navbar item-->
+        </div><!--navbar-end-->
+      </div> <!--navbar-menu-->
+    </nav>
 
     <div class="content">
         <div class=" title welcome-msg-head level-left">
             <p>Welcome to the personality test!</p>
         </div>
+
+        <div class="q-block">
+          <div class="opacity">
+            <h1 style="color: black;">How old is rick?</h1>
+
+            <button class="button">69</button>
+            <button class="button">103</button>
+            <button class="button">45</button>
+            <button class="button">70</button>
+
+          </div>
+          <progress class="is-primary progress"/>
+        </div>
     </div>
 
-    <progress class="is-primary"/>
+    
+
+    <footer class="footer">
+      <img class="footer-logo" src="../assets/img/logo.svg" alt="Rickommend" width="200px">
+      <div class="content">
+        <button class="button">
+          <span class="icon">
+            <i class="fa fa-github"></i>
+          </span>
+          <span>GitHub</span>
+        </button>
+
+        <button class="button">
+          <span class="icon">
+            <i class="fa fa-facebook"></i>
+          </span>
+          <span>Facebook</span>
+        </button>
+
+        <button class="button">
+          <span class="icon">
+            <i class="fa fa-instagram"></i>
+          </span>
+          <span>Instagram</span>
+        </button>
+
+        <button class="button">
+          <span class="icon">
+            <i class="fa fa-youtube"></i>
+          </span>
+          <span>Youtube</span>
+        </button>
+
+        <div class="content legal-info">
+          <p><u> Policy</u></p>
+          <p><u>Terms of Service</u></p>
+          <a href="pages/about.html" style="text-decoration: none;"><p><u>About Us</u></p></a>
+        </div>
+
+      </div>
+
+      
+    </footer>
     
   </section>
   </body>

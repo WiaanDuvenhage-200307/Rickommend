@@ -131,3 +131,31 @@ span:hover{
     -webkit-box-shadow: -25px -5px 35px -16px rgba(89,217,10,0.75);
     -moz-box-shadow: -25px -5px 35px -16px rgba(89,217,10,0.75);;
 }
+
+.q-block{
+    background-color: white;
+    border-radius: 20px 0px;
+    width: 700px;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Anton';
+    background-image: url('../assets/img/rick.jpg');
+    background-size: cover;
+    margin: 0 auto;
+    color: black;
+    font-size: 36px;
+}
+
+.q-block .button {
+    padding: 20px;
+    background-color: #c7fa6c;
+}
+
+progress{
+    background: black;
+}
+
+.opacity{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
