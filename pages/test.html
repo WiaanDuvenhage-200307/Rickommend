@@ -7,13 +7,12 @@
     <link rel="icon" href="../assets/img/logo.svg">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/test.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="../js/test.js"></script>
   </head>
   <body>
   <section>
-    <!-- TODO | Add one question to questionaire -->
     <nav class="navbar is-transparent">
       <div class="navbar-brand">
         <a href="../index.html"><img src="../assets/img/logo.svg" alt="" width="200px"></a>
@@ -40,8 +39,8 @@
       </div> <!--navbar-menu-->
     </nav>
 
-    <div class="content">
-        <div class=" title welcome-msg-head level-left">
+    <div class="content query">
+        <div class=" title welcome-msg-head level-left is-1">
             <p>Welcome to the personality test!</p>
         </div>
 
@@ -49,12 +48,13 @@
           <div class="opacity">
             <h1 style="color: black;">How old is rick?</h1>
 
-            <button class="button answer">69</button>
-            <button class="button answer">103</button>
-            <button class="button answer">45</button>
-            <button class="button answer">70</button>
+            <button id="69" class="button q-btn" value="69"><p>69</p></button>
+            <button id="103" class="button q-btn" value="103"><p>103</p></button>
+            <button id="45" class="button q-btn" value="45"><p>45</p></button>
+            <button id="70" class="button q-btn" value="70"><p>70</p></button>
 
           </div>
+          <div class="output"></div>
           <progress class="is-primary progress" value="0.25"/>
         </div>
     </div>
@@ -95,7 +95,7 @@
         <div class="content legal-info">
           <p><u> Policy</u></p>
           <p><u>Terms of Service</u></p>
-          <a href="pages/about.html" style="text-decoration: none;"><p><u>About Us</u></p></a>
+          <a href="about.html" style="text-decoration: none;"><p><u>About Us</u></p></a>
         </div>
 
       </div>
