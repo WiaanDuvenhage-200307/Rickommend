@@ -158,3 +158,51 @@ progress{
     background-color: rgba(255, 255, 255, 0.6);
 }
 
+
+@media only screen and (max-width: 412px) {
+   .navbar-brand{
+       background-color: #c7fa6c;
+       align-items: center;
+       height: 60px;
+       padding: 10px;
+   }
+
+   .navbar-burger{
+        display: inline-block;
+   }
+
+   img{
+       padding: 0;
+       margin: 0;
+       width: 150px;
+   }
+
+   .welcome-msg{
+       font-size: 14px;
+   }
+
+   .welcome-msg-head{
+    font-size: 24px;
+   }
+
+    .button{
+        width: 100px;
+    }
+
+    .button p{
+        font-size: 16px;
+    }
+
+    .second{
+        width: 160px;
+    }
+
+    .footer-logo{
+        position: relative;
+        left: 45px;
+    }
+
+
+}
+
+

@@ -49,6 +49,7 @@ html{
     margin: 0 auto;
     color: black;
     font-size: 36px;
+    display: none;
 }
 .q-block .button {
     padding: 20px;
@@ -116,4 +117,8 @@ a:visited{
 
 span:hover{
     color: black;
+}
+
+.active{
+    display: block;
 }

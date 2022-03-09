@@ -6,6 +6,6 @@ $.getJSON("videos.json", function(json) {
 
     $('.url').append(`
     
-        <a href="${json.videos[0].url}" target="blank"><button class="button is-large ">Watch The First Episode</button></a>
+        <a href="${json.videos[0].url}" target="blank"><button class="button second is-large "><p>Watch The First Episode</p></button></a>
     `)
 });
