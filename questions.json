@@ -1,0 +1,40 @@
+{"Questions" : [
+        {
+            "id" : "first",
+            "Question": "How old is Rick?",
+            "Option1" : 69,
+            "Option2" : 70,
+            "Option3" : 103,
+            "Option4" : 56,
+            "answer" : 70
+        },
+        {
+            "id" : "second",
+            "Question": "When did Rick turn himself into a pickle?",
+            "Option1" : "Season 2",
+            "Option2" : "Season 4",
+            "Option3" : "Season 3",
+            "Option4" : "Season 1",
+            "answer" : "Season 3"
+        },
+        {
+            "id" : "third",
+            "Question": "What is the last episode called of Rick and Morty?",
+            "Option1" : "This is it Morty",
+            "Option2" : "Rickmurai Jack",
+            "Option3" : "Good Rickens",
+            "Option4" : "Farewell Traveler",
+            "answer" : "Rickmurai Jack"
+        },
+        {
+            "id" : "fourth",
+            "Question": "What is Morty's Sister's name?",
+            "Option1" : "Michelle",
+            "Option2" : "Samantha",
+            "Option3" : "Sabrina",
+            "Option4" : "Summer",
+            "answer" : "Summer"
+        }
+        
+    ]
+}

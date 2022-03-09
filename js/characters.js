@@ -7,9 +7,10 @@ $.getJSON(API, (result) =>{
 
         $("#card-info").append(` 
 
-            <div class="card-img" style="width:20%; background-color: "red"; height: 200px">
+            <div class="card-img">
+                <div class='info'><p class="char-name">${result.results[i].name}</p></div>
                 <img class="char-img" src="${result.results[i].image}">
-                <p class="char-name">${result.results[i].name}</p>
+                <hr/>
             </div>
 
         `)
@@ -22,4 +23,14 @@ $.getJSON(API, (result) =>{
 
     
 
+})
+
+$('.navbar-burger').bind('click', function(){
+    console.log('clicked!');
+    $('.burger-links').toggle('active');
+})
+
+$('.navbar-burger').click(function(){
+    console.log('clicked!');
+    $(this).toggleClass('is-active');
 })

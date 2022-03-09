@@ -7,7 +7,7 @@
     <link rel="icon" href="../assets/img/logo.svg">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/character.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="../js/characters.js"></script>
     
@@ -17,31 +17,43 @@
     <!-- TODO | Update Nav -->
     <!-- TODO | Add slideDown() function to characters -->
      <!-- TODO | Footer -->
-  <section class="section">
-    <nav class="navbar is-transparent">
+     <nav class="container">
       <div class="navbar-brand">
         <a href="../index.html"><img src="../assets/img/logo.svg" alt="" width="200px"></a>
-        <div class="navbar-burger" data-target="navbarExampleTransparentExample">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div> <!--Navbar Burger-->
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="true">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu">
+    
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <p class="control">
+                <a class="button secondary" href="pages/characters.html">
+                  <span>
+                    Character List
+                  </span>
+                </a>
+  
+                <a class="button secondary" href="pages/characters.html">
+                  <span>
+                    Help us Improve!
+                  </span>
+                </a>
+              </p><!--control-->
+            </div><!--Navbar item-->
+          </div><!--navbar-end-->
+        </div> <!--navbar-menu-->
       </div> <!--Navbar Brand-->
+      <div class="burger-links">
+        <ul>
+          <a href="pages/characters.html"><li>Character List</li></a>
+          <hr>
+          <a href="pages/characters.html"><li>Help us Improve</li></a>
+        </ul>
+      </div>
     
-      <div class="navbar-menu">
-    
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <p class="control">
-              <a class="button secondary" href="pages/characters.html">
-                <span>
-                  Character List
-                </span>
-              </a>
-            </p><!--control-->
-          </div><!--Navbar item-->
-        </div><!--navbar-end-->
-      </div> <!--navbar-menu-->
     </nav>
 
     <div class="content">
@@ -58,22 +70,7 @@
 
       </div>
 
-      <!-- ? Pagnation Section -->
-      <div class="pagination" role="navigation" aria-label="pagination">
-  
-        <ul class="pagination-list">
-          <li>
-            <a class="pagination-link page-one is-current" aria-label="Page 1" aria-current="page">1</a>
-          </li>
-          <li>
-            <a class="pagination-link page-two" aria-label="Goto page 2">2</a>
-          </li>
-          <li>
-            <a class="pagination-link page-three" aria-label="Goto page 3">3</a>
-          </li>
-        </ul>
-
-      </div>
+     
 
       <footer class="footer">
         <img class="footer-logo" src="../assets/img/logo.svg" alt="Rickommend" width="200px">
@@ -119,6 +116,5 @@
 
     
     
-  </section>
   </body>
 </html>

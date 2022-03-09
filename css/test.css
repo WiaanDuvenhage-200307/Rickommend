@@ -122,3 +122,110 @@ span:hover{
 .active{
     display: block;
 }
+
+.next{
+    background-color: white;
+    width: 100%;
+    border: #00B4F3;
+}
+
+.output{
+    color: #c7fa6c;
+}
+
+.recc{
+    text-align: center;
+}
+
+.recc .button{
+    background-color: #00B4F3;
+    height: 100px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.burger-links{
+    display: none;
+    width: 100%;
+    height: auto;
+    background-color: #00B4F3;
+    font-family: 'Anton';
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
+@media only screen and (max-width: 412px) {
+    .navbar-brand{
+        background-color: #c7fa6c;
+        align-items: center;
+        height: 60px;
+        padding: 10px;
+    }
+ 
+    img{
+        padding: 0;
+        margin: 0;
+        width: 150px;
+        position: relative;
+        top: 10px;
+    }
+ 
+    .welcome-msg{
+        font-size: 1px;
+    }
+ 
+    .welcome-msg-head{
+        margin-top: 30px;
+        font-size: 1px;
+    }
+ 
+     .button{
+         width: 100px;
+     }
+
+     .q-block{
+        width: 400px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 14px;
+     }
+
+     .second{
+         position: relative;
+         left: 70px;
+     }
+ 
+     .button p{
+         width: 100px;
+     }
+
+     .recc h1{
+        width: 100px;
+        height: 200px;
+        font-size: 14px;
+        position: relative;
+        top: 90px;
+        right: 60px;
+     }
+
+     .recc .button{
+         width: 300px;
+         padding: 0;
+         height: 50px;
+     }
+ 
+     .second{
+         width: 160px;
+     }
+ 
+     .footer-logo{
+         position: relative;
+         left: 45px;
+     }
+     
+     .footer{
+         padding-top: 0;
+     }
+ 
+ }

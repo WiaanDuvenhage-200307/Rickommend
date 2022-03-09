@@ -12,31 +12,43 @@
     <script src="../js/test.js"></script>
   </head>
   <body>
-  <section>
-    <nav class="navbar is-transparent">
+    <nav class="container">
       <div class="navbar-brand">
         <a href="../index.html"><img src="../assets/img/logo.svg" alt="" width="200px"></a>
-        <div class="navbar-burger" data-target="">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div> <!--Navbar Burger-->
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu">
+    
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <p class="control">
+                <a class="button secondary" href="pages/characters.html">
+                  <span>
+                    Character List
+                  </span>
+                </a>
+  
+                <a class="button secondary" href="pages/characters.html">
+                  <span>
+                    Help us Improve!
+                  </span>
+                </a>
+              </p><!--control-->
+            </div><!--Navbar item-->
+          </div><!--navbar-end-->
+        </div> <!--navbar-menu-->
       </div> <!--Navbar Brand-->
+      <div class="burger-links">
+        <ul>
+          <a href="pages/characters.html"><li>Character List</li></a>
+          <hr>
+          <a href="pages/characters.html"><li>Help us Improve</li></a>
+        </ul>
+      </div>
     
-      <div class="navbar-menu">
-    
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <p class="control">
-              <a class="button secondary" href="characters.html">
-                <span>
-                  Character List
-                </span>
-              </a>
-            </p><!--control-->
-          </div><!--Navbar item-->
-        </div><!--navbar-end-->
-      </div> <!--navbar-menu-->
     </nav>
 
     <div class="content query">
@@ -44,61 +56,12 @@
             <p>Welcome to the personality test!</p>
         </div>
 
-        <div class="q-block first active">
-          <div class="opacity">
-            <h1 style="color: black;">How old is Rick?</h1>
+        <div class="q-block active">
+          
+        </div> 
 
-            <button id="69" class="button q-btn" value="69"><p>69</p></button>
-            <button id="103" class="button q-btn" value="103"><p>103</p></button>
-            <button id="45" class="button q-btn" value="45"><p>45</p></button>
-            <button id="70" class="button q-btn" value="70"><p>70</p></button>
-
-          </div>
-          <div class="output"></div>
-          <progress class="is-primary progress" value="0.25"/>
-        </div>
-
-        <div class="q-block second">
-          <div class="opacity">
-            <h1 style="color: black;">How old is Morty?</h1>
-
-            <button id="69" class="button q-btn" value="69"><p>69</p></button>
-            <button id="103" class="button q-btn" value="103"><p>103</p></button>
-            <button id="45" class="button q-btn" value="45"><p>45</p></button>
-            <button id="70" class="button q-btn" value="70"><p>70</p></button>
-
-          </div>
-          <div class="output"></div>
-          <progress class="is-primary progress" value="0.50"/>
-        </div>
-
-        <div class="q-block third">
-          <div class="opacity">
-            <h1 style="color: black;">How old is Morty?</h1>
-
-            <button id="69" class="button q-btn" value="69"><p>69</p></button>
-            <button id="103" class="button q-btn" value="103"><p>103</p></button>
-            <button id="45" class="button q-btn" value="45"><p>45</p></button>
-            <button id="70" class="button q-btn" value="70"><p>70</p></button>
-
-          </div>
-          <div class="output"></div>
-          <progress class="is-primary progress" value="0.75"/>
-        </div>
-
-        <div class="q-block fourth">
-          <div class="opacity">
-            <h1 style="color: black;">How old is Morty?</h1>
-
-            <button id="69" class="button q-btn" value="69"><p>69</p></button>
-            <button id="103" class="button q-btn" value="103"><p>103</p></button>
-            <button id="45" class="button q-btn" value="45"><p>45</p></button>
-            <button id="70" class="button q-btn" value="70"><p>70</p></button>
-
-          </div>
-          <div class="output"></div>
-          <progress class="is-primary progress" value="1"/>
-        </div>
+        <div class="recc"></div>
+        
     </div>
 
     
@@ -145,6 +108,6 @@
       
     </footer>
     
-  </section>
+ 
   </body>
 </html>

@@ -18,36 +18,43 @@
     <!-- TODO | Fix Footer alignment -->
     <!-- TODO | Add more content to Page -->
 
-    <nav class="navbar is-transparent">
+    <nav class="container">
       <div class="navbar-brand">
         <a href="#"><img src="assets/img/logo.svg" alt="" width="200px"></a>
-        <div class="navbar-burger" data-target="navbar">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="true">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
-        </div> <!--Navbar Burger-->
+        </a>
+        <div class="navbar-menu">
+    
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <p class="control">
+                <a class="button secondary" href="pages/characters.html">
+                  <span>
+                    Character List
+                  </span>
+                </a>
+  
+                <a class="button secondary" href="pages/characters.html">
+                  <span>
+                    Help us Improve!
+                  </span>
+                </a>
+              </p><!--control-->
+            </div><!--Navbar item-->
+          </div><!--navbar-end-->
+        </div> <!--navbar-menu-->
       </div> <!--Navbar Brand-->
+      <div class="burger-links">
+        <ul>
+          <a href="pages/characters.html"><li>Character List</li></a>
+          <hr>
+          <a href="pages/characters.html"><li>Help us Improve</li></a>
+        </ul>
+      </div>
     
-      <div class="navbar-menu">
-    
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <p class="control">
-              <a class="button secondary" href="pages/characters.html">
-                <span>
-                  Character List
-                </span>
-              </a>
-
-              <a class="button secondary" href="pages/characters.html">
-                <span>
-                  Help us Improve!
-                </span>
-              </a>
-            </p><!--control-->
-          </div><!--Navbar item-->
-        </div><!--navbar-end-->
-      </div> <!--navbar-menu-->
     </nav>
 
   <section class="content">
