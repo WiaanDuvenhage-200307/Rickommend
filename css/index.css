@@ -1,8 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Creepster&family=Nunito&display=swap');
+/* font-family: 'Anton', sans-serif;
+font-family: 'Creepster', cursive;
+font-family: 'Nunito', sans-serif; */
 
 html{
-    background-image: url("../assets/img/bg-img.jpg");
+    background-image: url("https://images.alphacoders.com/876/876589.jpg");
     width: 100%;
+    height: 100vh;
+}
+body{
+    height: 100vh;
+}
+h2{
+  font-family: 'Creepster', cursive;
+  color: #00B4F3;
+  font-size:50px;  
+}
+
+.logo{
+    text-align: left;
 }
 
 .title{
@@ -20,10 +36,24 @@ html{
     font-size: 36px;
     font-family: 'Anton';
     padding: 10px;
+    width: 50%;
+}
+
+.welcome-msg h1{
+    font-size: 42px;
+    color: #c7fa6c;
 }
 
 .welcome-msg-head{
     font-family: 'Anton';
+}
+
+button span{
+    color: black;
+}
+
+a{
+    color:white;
 }
 
 
@@ -43,8 +73,14 @@ a:visited{
 
 .footer{
     background-color: transparent;
-    border-top: 2px solid white;
     text-align: left;
+    height: auto;
+}
+
+.footer h3{
+    text-align: left;
+    font-family: 'Nunito';
+    color: white;
 }
 
 .footer, .icon{
@@ -55,7 +91,9 @@ a:visited{
     float: left;
 }
 
-
+.url{
+    padding-bottom: 100px;
+}
 
 .primary{
     color: white;
@@ -88,9 +126,8 @@ span:hover{
 
 .button:hover{
     background-color: #c7fa6c;
-    transform: scale(1.2);
     border: none;
-    transition: 0.2s;
+    transition: 0.2s ease-in;
 }
 
 .columns{
@@ -186,8 +223,9 @@ progress{
        top: 10px;
    }
 
-   .welcome-msg{
-       font-size: 14px;
+   .welcome-msg h1{
+       font-size: 24px;
+       width: 200%;
    }
 
    .welcome-msg-head{
@@ -211,10 +249,10 @@ progress{
         left: 45px;
     }
     
-    .footer{
-        padding-top: 0;
+    .footer h3{
+        font-size: 16px;
+        text-align: center;
     }
-
 }
 
 
