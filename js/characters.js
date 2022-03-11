@@ -5,19 +5,21 @@ $.getJSON(API, (result) =>{
     for(i = 0; i < result.results.length;i++){
         
 
+        // TODO Fix cards to appear next to each other!
         $("#card-info").append(` 
+        
+        <div class="tile is-ancestor">
+        <div class="tile is-parent">
+        <article class="tile is-child notification is-info">
+          <p class="title">Middle tile</p>
+          <p class="subtitle">With an image</p>
+          <figure class="image">
+            <img src="${result.results[i].image}">
+          </figure>
+        </article>
 
-            <div class="card-img">
-                <div class='info'><p class="char-name">${result.results[i].name}</p></div>
-                <img class="char-img" src="${result.results[i].image}">
-                <hr/>
-            </div>
-
+      </div>
         `)
-
-        $('#card-info').click(function(){
-            
-        })
       
     };
 
