@@ -30,38 +30,76 @@ $(document).ready(function(){
   
           // TODO Fix cards to appear next to each other!
           // TODO Fix Conditional IF Statement with status messages!
-          $("#card-info").append(` 
+
+        
+          if(result.results[i].status === "Dead"){
+            $("#card-info").append(` 
   
            <div class="char-img front active" >
             <img src="${result.results[i].image}">
             <h3 class = "name">${result.results[i].name}</h3>
-            <h3>${result.results[i].species}</h3>
-            <h3>${result.results[i].location.name}</h3>
-            <h3>${result.results[i].species}</h3>
-            <h3 class = "status">${result.results[i].status}</h3>
+            <h3><b>SPECIES: </b>${result.results[i].species}</h3>
+            <h3> <b>LOCATION: </b>${result.results[i].location.name}</h3>
+            <h3><b>GENDER: </b>${result.results[i].gender}</h3>
+            <h3 class = "dead"><b>STATUS: </b> ${result.results[i].status}</h3>
            </div>
   
           `)
+          }else if(result.results[i].status === "Alive"){
+            $("#card-info").append(` 
+  
+           <div class="char-img front active" >
+            <img src="${result.results[i].image}">
+            <h3 class = "name">${result.results[i].name}</h3>
+            <h3><b>SPECIES: </b>${result.results[i].species}</h3>
+            <h3> <b>LOCATION: </b>${result.results[i].location.name}</h3>
+            <h3><b>GENDER: </b>${result.results[i].gender}</h3>
+            <h3 class = "alive"><b>STATUS: </b> ${result.results[i].status}</h3>
+           </div>
+  
+          `)
+          } else {
+            $("#card-info").append(` 
+  
+            <div class="char-img front active" >
+             <img src="${result.results[i].image}">
+             <h3 class = "name">${result.results[i].name}</h3>
+             <h3><b>SPECIES: </b>${result.results[i].species}</h3>
+             <h3> <b>LOCATION: </b>${result.results[i].location.name}</h3>
+             <h3><b>GENDER: </b>${result.results[i].gender}</h3>
+             <h3 class = "unknown"><b>STATUS: </b> ${result.results[i].status}</h3>
+            </div>
+   
+           `)
+          }
+        
+        
 
         
-        if(status === "Dead"){
-          $('.status').css({"backgroundColor":"red"});
-        }else if(status === "Alive"){
-          $(".status").css({"backgroundColor":"green"});
-        } else {
-          $(".status").css({"backgroundColor":"yellow"});
-        }
+
+
 
         
 
       
       }
 
-    if( stat === "Dead"){
-      $(".status").css("background-color", "red");
-    } else if(stat === "Alive"){
-      $(".status").css("background-color", "green");
-    }
+      // for(i = 0; i < result.results.length;i++){
+      //   if(result.results[i].status === "Dead"){
+      //     $(this).addClass("dead");
+      //     }else if(result.results[i].status === "Alive"){
+      //       $(this).addClass("alive");
+      //     } else {
+      //       $(this).addClass("unknown");
+      //     }
+      // }
+     
+
+    // if( stat === "Dead"){
+    //   $(".status").css("background-color", "red");
+    // } else if(stat === "Alive"){
+    //   $(".status").css("background-color", "green");
+    // }
 
       // if( status == "unknown"){
       //   $('.status').css("backgroundColor","blue");

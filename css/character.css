@@ -134,16 +134,18 @@ span:hover{
 .char-img{
     padding: 20px;
     background-color: white;
-    width: 25%;
+    width: 20%;
     margin: 30px;
     text-align: center;
     border-radius: 30px;
+    float: left;
 }
 
 #card-info{
     width: 100%;
     height: auto;
     border-radius: 20px;
+    padding-left: 100px;
 }
 
 .name{
@@ -161,6 +163,24 @@ span:hover{
     width: auto;
 }
 
+.dead{
+    background-color: red;
+}
+
+.alive{
+    background-color: #c7fa6c;
+}
+
+.unknown{
+    background-color: #696969;
+}
+
+.column{
+    width: 20%;
+}
+
+
+
 h3{
     font-size: 20px;
     margin: 10px;
@@ -177,6 +197,7 @@ h3{
 
 .next{
     background-color: #00B4F3;
+   text-align: center;
    margin: 0 auto;
 }
 
@@ -190,10 +211,9 @@ h3{
  
     img{
         padding: 0;
-        margin: 0;
-        width: 150px;
-        position: relative;
-        top: 10px;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
     }
  
     .welcome-msg{
@@ -230,5 +250,26 @@ h3{
         color: white;
         font-size: 24px;
     }
+    .char-img{
+        width: 100%;
+        position: relative;
+        right: 50px;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    button{
+        width: 2000px;
+        position: relative;
+        left: 30%;
+    }
+
+    button h2{
+        font-size: 14px;
+        text-align: center;
+    }
+    
  
  }
+
+ 
