@@ -189,6 +189,10 @@ span:hover{
     .heading h2{
         font-size: 18px;
     }
+
+    .message{
+        width: 100%;
+    }
 }
 
 

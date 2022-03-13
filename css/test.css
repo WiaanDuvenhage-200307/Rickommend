@@ -1,9 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Creepster&family=Nunito&display=swap');
+/* font-family: 'Anton', sans-serif;
+font-family: 'Creepster', cursive;
+font-family: 'Nunito', sans-serif; */
+
 
 
 html{
-    background-image: url("../assets/img/bg-img.jpg");
+    background-image: url("https://images.alphacoders.com/876/876589.jpg");
     width: 100%;
+}
+
+h2{
+    font-family: 'Creepster', cursive;
+    color: #00B4F3;
+    font-size:50px;  
+    margin-bottom: 50px;
 }
 
 .title{
@@ -40,7 +51,8 @@ html{
 .q-block{
     background-color: white;
     border-radius: 20px 0px;
-    width: 30%;
+    width: 50%;
+    height: 30vh;
     margin: 20px;
     text-align: center;
     padding: 30px;
@@ -48,7 +60,6 @@ html{
     background-color: #c7fa6c;
     color: black;
     font-size: 36px;
-    display: none;
 }
 .q-block .button {
     padding: 20px;
@@ -152,6 +163,13 @@ span:hover{
     padding: 20px;
     color: black;
     text-align: center;
+}
+
+h3{
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    text-align: left;
 }
 
 @media only screen and (max-width: 412px) {
