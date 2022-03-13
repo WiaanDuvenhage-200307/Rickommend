@@ -110,50 +110,6 @@ span:hover{
     color: white;
 }
 
-@media only screen and (max-width: 412px) {
-   .navbar-brand{
-       background-color: #c7fa6c;
-       align-items: center;
-       height: 60px;
-       padding: 10px;
-   }
-
-   img{
-       padding: 0;
-       margin: 0;
-       width: 150px;
-       position: relative;
-       top: 10px;
-   }
-
-   .welcome-msg h1{
-       font-size: 24px;
-       width: 200%;
-   }
-
-   .welcome-msg-head{
-    font-size: 24px;
-   }
-
-    .button{
-        width: 100px;
-    }
-
-    .button p{
-        font-size: 16px;
-    }
-
-    .second{
-        width: 160px;
-    }
-
-    .footer-logo{
-        position: relative;
-        left: 45px;
-    }
-}
-
-
 
 
 .burger-links{
@@ -167,16 +123,61 @@ span:hover{
     text-align: center;
 }
 
+.front h3{
+    color: black;
+}
+
+.back{
+    display: none;
+}
+
+.char-img{
+    padding: 20px;
+    background-color: white;
+    width: 25%;
+    margin: 30px;
+    text-align: center;
+    border-radius: 30px;
+}
+
 #card-info{
     width: 100%;
     height: auto;
     border-radius: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+}
+
+.name{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: black;
+    color: white !important;
+    border-radius: 25px;
+    font-family: 'Anton';
+}
+
+.status{
+    color: white !important;
+    width: auto;
+}
+
+h3{
+    font-size: 20px;
+    margin: 10px;
 }
 
 .active{
     display: block;
+}
+
+.next h2{
+    font-family: 'Anton';
+    color: white;
+}
+
+.next{
+    background-color: #00B4F3;
+   margin: 0 auto;
 }
 
 @media only screen and (max-width: 412px) {

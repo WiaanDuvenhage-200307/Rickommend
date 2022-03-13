@@ -8,9 +8,34 @@
 
         {
             "videoID" : 1,
-            "episodeName" : "Wake Up, Morty",
-            "url" : "https://www.youtube.com/watch?v=qtdCIs6JdXg"
+            "episodeName" : "Rick and Morty Break Up",
+            "url" : "https://www.youtube.com/watch?v=cVVoC20Z0w4"
+        },
+
+        {
+            "videoID" : 2,
+            "episodeName" : "Jan Quadrant Vincent 16",
+            "url" : "https://www.youtube.com/watch?v=nLB4dU3Yc6M"
+        },
+
+        {
+            "videoID" : 3,
+            "episodeName" : "Planetina Saves the Day",
+            "url" : "https://www.youtube.com/watch?v=nLB4dU3Yc6M"
+        },
+
+        {
+            "videoID" : 4,
+            "episodeName" : "Morty's Monsters ",
+            "url" : "https://www.youtube.com/watch?v=vLCPW6MnTHo"
+        },
+
+        {
+            "videoID" : 5,
+            "episodeName" : "Re-Build-A-Morty",
+            "url" : "https://www.youtube.com/watch?v=CdGKfBir7bI"
         }
+        
  
     ]
 }

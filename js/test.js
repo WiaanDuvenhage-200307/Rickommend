@@ -1,5 +1,9 @@
 $(document).ready(function(){
-   
+
+    // TODO Fix appending image to question
+
+
+    //! Hard coding questions and answers
     $.getJSON("../questions.json", function(json) {
         for(i = 0; i<json.Questions.length; i++){
             $('.opacity').addClass([i]);
@@ -14,11 +18,13 @@ $(document).ready(function(){
             <button id="45" class="button a" value="45"><p>${json.Questions[i].Option3}</p></button>
             <button id="70" class="button a" value="70"><p>${json.Questions[i].Option4}</p></button>
 
+
             </div>
             <div class="output"></div>
 
             `)
 
+            // !Hiding and showing questions onClick
             $('.first').fadeIn();
             $('.second').hide();
             $('.third').hide();
@@ -62,6 +68,21 @@ $(document).ready(function(){
     
     });
 
+    // ! Getting Images for the question
+    $.getJSON("../questions.json", function(json) {
+
+       for(i = 0; i < json.images.length; i++){
+           $(".image").append(`
+                <div class="q-img">
+                    <img src="${json.images[i].url}"
+                </div>
+           `)
+       } 
+
+    })
+
+
+    // ! Responsive navbar functionality
     $('.navbar-burger').bind('click', function(){
         $('.burger-links').toggle('active');
     })

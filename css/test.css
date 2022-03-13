@@ -40,20 +40,19 @@ html{
 .q-block{
     background-color: white;
     border-radius: 20px 0px;
-    width: 700px;
+    width: 30%;
+    margin: 20px;
     text-align: center;
     padding: 30px;
     font-family: 'Anton';
-    background-image: url('../assets/img/rick.jpg');
-    background-size: cover;
-    margin: 0 auto;
+    background-color: #c7fa6c;
     color: black;
     font-size: 36px;
     display: none;
 }
 .q-block .button {
     padding: 20px;
-    background-color: #c7fa6c;
+    background-color: #00B4F3;
 }
 
 .opacity{
