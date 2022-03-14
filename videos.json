@@ -21,7 +21,7 @@
         {
             "videoID" : 3,
             "episodeName" : "Planetina Saves the Day",
-            "url" : "https://www.youtube.com/watch?v=nLB4dU3Yc6M"
+            "url" : "https://www.youtube.com/watch?v=7-KzlmniLE0"
         },
 
         {
@@ -34,6 +34,36 @@
             "videoID" : 5,
             "episodeName" : "Re-Build-A-Morty",
             "url" : "https://www.youtube.com/watch?v=CdGKfBir7bI"
+        },
+
+        {
+            "videoID" : 6,
+            "episodeName" : "X Gon Give It To Ya",
+            "url" : "https://www.youtube.com/watch?v=f_iqM6iy7sY"
+        },
+
+        {
+            "videoID" : 7,
+            "episodeName" : "Pawn Shop",
+            "url" : "https://www.youtube.com/watch?v=zkba6gxzF0U"
+        },
+
+        {
+            "videoID" : 8,
+            "episodeName" : "Uncle Steve",
+            "url" : "https://www.youtube.com/watch?v=vbVvF5wWqf0"
+        },
+
+        {
+            "videoID" : 9,
+            "episodeName" : "Pickle Rick",
+            "url" : "https://www.youtube.com/watch?v=_gRnvDRFYN4"
+        },
+
+        {
+            "videoID" : 10,
+            "episodeName" : "Get Your Shit Together",
+            "url" : "https://www.youtube.com/watch?v=jl17CYYSzUw"
         }
         
  

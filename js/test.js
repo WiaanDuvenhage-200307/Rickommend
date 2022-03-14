@@ -5,9 +5,11 @@ $(document).ready(function(){
 
     //! Hard coding questions and answers
     $.getJSON("../questions.json", function(json) {
+
+        
+        
         for(i = 0; i<json.Questions.length; i++){
             $('.opacity').addClass([i]);
-            console.log(json.Questions[i].Question);
             $(".q-block").append(`
 
             <div class="opacity ${json.Questions[i].id}">
@@ -59,9 +61,23 @@ $(document).ready(function(){
                 $('.third').hide();
 
                 $('.output').text("You are a lot like Rick!");
-                $('.recc').append(`
-                    <button class="button"x><h1><a href="https://www.youtube.com/watch?v=szzVlQ653as">You should watch 'Roy: A Life Well Lived'</a></h1></button>
-                `)
+
+
+                $.getJSON("../videos.json", function(json){
+
+
+                    var episodeID = json.videos[Math.floor(Math.random() * json.videos.length)]; //returns random object in json
+        
+                    var episodeURL = episodeID.url; //get random url from json
+
+                    var episodeName = episodeID.episodeName;
+
+                    $('.recc').append(`
+                    <button class="button"x><h1><a href="${episodeURL}">You should watch '${episodeName}'</a></h1></button>
+                    `)
+        
+                    
+                });
             })
         }
 
