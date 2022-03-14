@@ -10,6 +10,11 @@ html{
     width: 100%;
 }
 
+.welcome-msg-head h1{
+    color: white;
+    text-align: center;
+}
+
 h2{
     font-family: 'Creepster', cursive;
     color: #00B4F3;
@@ -53,7 +58,7 @@ h2{
     border-radius: 20px 0px;
     width: 50%;
     height: 30vh;
-    margin: 20px;
+    margin: 0 auto;
     text-align: center;
     padding: 30px;
     font-family: 'Anton';
@@ -172,6 +177,13 @@ h3{
     text-align: left;
 }
 
+.output{
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Anton';
+}
+
+
 @media only screen and (max-width: 412px) {
     .navbar-brand{
         background-color: #c7fa6c;
@@ -196,16 +208,21 @@ h3{
         margin-top: 30px;
         font-size: 1px;
     }
+
+    .welcome-msg-head h1{
+        font-size: 36px;
+    }
  
      .button{
          width: 100px;
      }
 
      .q-block{
-        width: 400px;
+        width: 100%;
         text-align: center;
         margin: 0 auto;
         font-size: 14px;
+        height: auto;
      }
 
      .second{
@@ -230,6 +247,12 @@ h3{
          width: 300px;
          padding: 0;
          height: 50px;
+         
+     }
+
+     .recc h2{
+         font-size: 18px;
+         font-family: 'Anton';
      }
  
      .second{
