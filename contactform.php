@@ -1,12 +1,12 @@
-<?php
+<?php 
+if(isset($_POST['submit'])){
+    $to = "feedback@rickommend.co.za"; // this must be the email address from your hosting provider
 
-if(isset($_POST['submit'])) {
-    $message = $_POST['message'];
+    $subject = "SEO Project Feedback";
+    $message = $_POST['feedback'];
 
-    $mailTo = "200307@virtualwindow.co.za";
+    mail($to,$subject,$message);
 
-    $txt = $message;
-
-    mail($mailTo, $txt);
-    header("Location: contact.html?mailsend");
-}
+    header('Location: http://www.rickommend.co.za"); // you can add a thank you page if you like, this redirects to home
+    }
+?>
