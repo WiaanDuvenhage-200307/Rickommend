@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>About Us</title>
-    <link rel="icon" href="../assets/img/logo.svg">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <script src="https://kit.fontawesome.com/3d7d8906d0.js" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
-    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="icon" href="../assets/img/logo.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/3d7d8906d0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/contact.css" />
     <script src="../js/contact.js"></script>
   </head>
   <body>
@@ -18,86 +24,97 @@
     <nav class="container">
       <div class="navbar-brand">
         <a href="../index.html"><h2>Rickommend</h2></a>
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="true">
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="true"
+        >
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </a>
         <div class="navbar-menu">
-    
           <div class="navbar-end">
             <div class="navbar-item">
               <p class="control">
                 <a class="button secondary" href="characters.html">
-                  <span>
-                    Character List
-                  </span>
-                </a>
-  
-                <a class="button secondary" href="#">
-                  <span>
-                    Help us Improve!
-                  </span>
+                  <span> Character List </span>
                 </a>
 
-                <a href="https://github.com/WiaanDuvenhage-200307/Rickommend"><button class="button">
-                  <span class="icon">
-                    <i class="fa fa-github"></i>
-                  </span>
-                  <span>GitHub</span>
-                </button></a>
-              </p><!--control-->
-            </div><!--Navbar item-->
-          </div><!--navbar-end-->
-        </div> <!--navbar-menu-->
-      </div> <!--Navbar Brand-->
+                <a class="button secondary" href="#">
+                  <span> Help us Improve! </span>
+                </a>
+
+                <a href="https://github.com/WiaanDuvenhage-200307/Rickommend"
+                  ><button class="button">
+                    <span class="icon">
+                      <i class="fa fa-github"></i>
+                    </span>
+                    <span>GitHub</span>
+                  </button></a
+                >
+              </p>
+              <!--control-->
+            </div>
+            <!--Navbar item-->
+          </div>
+          <!--navbar-end-->
+        </div>
+        <!--navbar-menu-->
+      </div>
+      <!--Navbar Brand-->
       <div class="burger-links">
         <ul>
           <a href="characters.html"><li>Character List</li></a>
-          <hr>
+          <hr />
           <a href="#"><li>Help us Improve</li></a>
         </ul>
       </div>
-    
     </nav>
 
-      <div div class="heading">
+    <div div class="heading">
+      <h1>HELP US IMPROVE!</h1>
+      <h2>
+        Do I need to change a button?<br />
+        Align something?<br />
+        Fix some functionality?<br />
+        Tell me about it here!
+      </h2>
+    </div>
 
-        <h1>HELP US IMPROVE!</h1>
-        <h2>Do I need to change a button?<br> Align something?<br> Fix some functionality?<br> Tell me about it here!</h2>
-
-      </div>
-      
-      <form class="contact-form" action="contactform.php" method="post">
-
-        <div class="field">
-          <label class="label">Message</label>
-            <div class="control message">
-              <textarea class="textarea" placeholder="Tell me what I can improve" name="feedback"></textarea>
-            </div>
-          </form>
+    <form class="contact-form" action="../contactform.php" method="post">
+      <div class="field">
+        <label class="label">Message</label>
+        <div class="control message">
+          <textarea
+            class="textarea"
+            placeholder="Tell me what I can improve"
+            name="feedback"
+          ></textarea>
         </div>
+      </div>
 
-        <div class="field is-horizontal">
-          <div class="field-body">
-            <div class="field">
-              <div class="control">
-                <button type="submit" name="submit" class="button primary is-large">
-                  Submit Feedback
-                </button>
-              </div>
+      <div class="field is-horizontal">
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <button
+                type="submit"
+                name="submit"
+                class="button primary is-large"
+              >
+                Submit Feedback
+              </button>
             </div>
           </div>
         </div>
-
-      </form>        
-      <footer class="footer">
-        <hr>
-        <h3>Rickommend©2022</h3>
-        <div class="content">
-        </div>
-  
-        
-      </footer>
+      </div>
+    </form>
+    <footer class="footer">
+      <hr />
+      <h3>Rickommend©2022</h3>
+      <div class="content"></div>
+    </footer>
   </body>
 </html>
