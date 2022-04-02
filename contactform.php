@@ -1,12 +1,18 @@
-<?php 
+<?php
+
 if(isset($_POST['submit'])){
-    $to = "feedback@rickommend.co.za"; 
 
-    $subject = "SEO Project Feedback";
     $message = $_POST['feedback'];
+    $subject = "Project Feedback";
 
-    mail($to,$subject,$message);
+    $mailTo = "feedback@rickommend.co.za";
+    $headers = "From: My website";
+    $txt = "User says ".$message;
 
-    header('Location: http://www.rickommend.co.za");
-    }
+
+    mail($mailTo, $subject, $txt, $headers);
+    header("Location: contact.html?mailsend");
+
+
+}
 ?>
