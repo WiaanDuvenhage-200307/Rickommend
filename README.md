@@ -23,6 +23,7 @@
 
   <p align="center">
     An SEO Project built using HTML, CSS, JavaScript and the Bulma framework <br>
+    Take a look at the website here: <a href="http://rickommend.co.za">http://rickommend.co.za</a>
     
    <br />
    <br />
@@ -66,19 +67,20 @@
 
 <!-- header image of project -->
 
-![image1](assets/img/rickommend-logo.png)
+![image1](assets/img/Mockup4.png)
 
 ### Project Description
 
-For our SEO project I made a web app called Rickommend, which is an app that recommends a episode for you to watch based on a quiz that you need to complete. Additionally, you can view all the characters from the show and randomise them as well. This project was hosted on Afrihost using the silver hosting plan. Take a look at the website here: <a href="http://rickommend.co.za">http://rickommend.co.za</a>
+For our SEO project I made a web app called Rickommend, which is an app that recommends a episode for you to watch based on a quiz that you need to complete. Additionally, you can view all the characters from the show and randomise them as well. This project was hosted on Afrihost using the silver hosting plan.
 
 ### Built With
 
 - [HTML](https://whatwg.org/)
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 - [JavaScript](path/to/technology/website)
-- [jQuery](https://jquery.com/)
+- [jQuery 3.6.0](https://jquery.com/)
 - [Bulma](https://bulma.io/)
+- [Rick and Morty API](https://rickandmortyapi.com/)
 
 <!-- GETTING STARTED -->
 <!-- Make sure to add appropriate information about what prerequesite technologies the user would need and also the steps to install your project on their own mashines -->
@@ -198,7 +200,7 @@ See the [open issues](https://github.com/WiaanDuvenhage-200307/rickommend/issues
 
 ## Authors
 
-- **Your Name & Surname** - [Wiaan](https://github.com/WiaanDuvenhage-200307)
+- **Your Name & Surname** - [Wiaan Duvenhage](https://github.com/WiaanDuvenhage-200307)
 
 <!-- LICENSE -->
 
@@ -210,7 +212,7 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 
 ## Contact
 
-- **Wiaan Duvenhage** - [wiaanduvenhage.dev@gmail.com](mailto:wiaanduvenhage.dev@gmail.com) - [@instagram_handle](https://www.instagram.com/double.u.dee.designs/)
+- **Wiaan Duvenhage** - [wiaanduvenhage.dev@gmail.com](mailto:wiaanduvenhage.dev@gmail.com) - [@double.u.dee.designs](https://www.instagram.com/double.u.dee.designs/)
 - **Project Link** - https://github.com/WiaanDuvenhage-200307/rickommend
 
 <!-- ACKNOWLEDGEMENTS -->
@@ -221,6 +223,6 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 
 - [Rick n Morty API](https://rickandmortyapi.com/)
 - [Stack Overflow](https://stackoverflow.com/)
-- [Resource Name](path/to/resource)
-- [Resource Name](path/to/resource)
-- [Resource Name](path/to/resource)
+- [Bulma Documentation](https://bulma.io/documentation/)
+- [YouTube](https://www.youtube.com/)
+- [Wallpaper Cave](https://wallpapercave.com/w/wp7110875)
