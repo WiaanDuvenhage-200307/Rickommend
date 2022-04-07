@@ -226,3 +226,5 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 - [Bulma Documentation](https://bulma.io/documentation/)
 - [YouTube](https://www.youtube.com/)
 - [Wallpaper Cave](https://wallpapercave.com/w/wp7110875)
+- [Cooolors](https://coolors.co/)
+- [Figma](https://www.figma.com/)
