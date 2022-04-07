@@ -16,7 +16,7 @@
 <p align="center">
 
   <a href="https://github.com/WiaanDuvenhage-200307/rickommend">
-    <img src="assets\img\rickommend-logo.png" alt="Logo" width="140" height="140">
+    <img src="assets\img\rickommend-logo.png" alt="Logo">
   </a>
   
   <h3 align="center">Rickommend</h3>
@@ -115,7 +115,7 @@ Here are a couple of ways to clone this repo:
 
 Using the Rick and Morty API, we are displaying the characters, which the user can randomise again.
 
-![image3](https://raw.githubusercontent.com/WiaanDuvenhage-200307/rickommend/assets/img/Mockup2.jpg)
+![image3](assets/img/2.jpg)
 
 ### Feature 2
 
@@ -230,7 +230,7 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 
 ## Contact
 
-- **Your Name & Surname** - [wiaanduvenhage.dev@gmail.com](mailto:wiaanduvenhage.dev@gmail.com) - [@instagram_handle](https://www.instagram.com/double.u.dee.designs/)
+- **Wiaan Duvenhage** - [wiaanduvenhage.dev@gmail.com](mailto:wiaanduvenhage.dev@gmail.com) - [@instagram_handle](https://www.instagram.com/double.u.dee.designs/)
 - **Project Link** - https://github.com/WiaanDuvenhage-200307/rickommend
 
 <!-- ACKNOWLEDGEMENTS -->
