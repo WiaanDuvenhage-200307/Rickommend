@@ -70,13 +70,14 @@
 
 ### Project Description
 
-A nice introduction to this amazing project of mine.
+For our SEO project I made a web app called Rickommend, which is an app that recommends a episode for you to watch based on a quiz that you need to complete. Additionally, you can view all the characters from the show and randomise them as well. This project was hosted on Afrihost using the silver hosting plan. Take a look at the website here: <a href="http://rickommend.co.za">http://rickommend.co.za</a>
 
 ### Built With
 
 - [HTML](https://whatwg.org/)
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 - [JavaScript](path/to/technology/website)
+- [jQuery](https://jquery.com/)
 - [Bulma](https://bulma.io/)
 
 <!-- GETTING STARTED -->
@@ -109,25 +110,17 @@ Here are a couple of ways to clone this repo:
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
 
-![image2](assets/img/Mockup1.jpg)
-
 ### All the characters shown on Rick and Morty!
 
 Using the Rick and Morty API, we are displaying the characters, which the user can randomise again.
 
-![image3](assets/img/2.jpg)
-
 ### Feature 2
 
-Description of Feature
-
-![image4][image4]
+Using 2 `.json` files that I created, you complete a quiz, which will give you the best episode to watch based on your answers.
 
 ### Feature 3
 
-Description of Feature
-
-![image5][image5]
+Using `.php` I have added a feedback form to send any emails to me on changes that I can implement on this project.
 
 <!-- CONCEPT PROCESS -->
 <!-- Briefly explain your concept ideation process -->
@@ -135,19 +128,7 @@ Description of Feature
 
 ## Concept Process
 
-The `Conceptual Process` is the set of actions, activities and research that was done when starting this project.
-
-### Ideation
-
-![image5][image5]
-<br>
-![image6][image6]
-
-### Custom UI
-
-![image8][image8]
-
-<!-- DEVELOPMENT PROCESS -->
+For my conceptual process, I took a look at websites such as Behance, Pinterest and Siteinspire. I also watched a few Rick and Morty episodes and took a look at the colors and played around with them in Figma and looked at sites like cooolors.co to have a sense of a good color palette.
 
 ## Development Process
 
@@ -159,40 +140,38 @@ The `Development Process` is the technical implementations and functionality don
 <!-- This is your time to shine, explain the technical nuances of your project, how did you achieve the final outcome!-->
 
 - I used Bulma to implement resposiveness to my web app, so that it can be viewable on both desktop and mobile.
-- Implemented Routing with `React-Router v6`.
-- API End Point: link Here
-- `Plugin` for this.
-- ETC.
+
+- I created a quiz and using logic I made that when you enter a question it goes to another question and upon completing the quiz, it will give you an episode of Rick and Morty to watch (it is randomized). I displayed the question using a `.json` file that I created myself and jQuery `.fadeIn()` & `.hide()` events to show questions I have not answers and hide those that I have answered while simultaneously appending pictures for the questions to the dom from a `.json` file that I also created and populated.
+
+- For my character list I created getJSON() function that will get all the data from the characters. Inside of that function I then appended them to the DOM with the relative styling in a card format using Bulma's card default styling properties. I then wrote some logic to display their status in different colors. For example, I wrote an if() that would check if the status name is strongly equals to dead and append it to the dom and make a red block around the word "dead" and did an else if for the status name alive and unknown.
+
+- Furthermore, I appended the characters to the dom and added a "give me more characters" button which will generate a new set of characters. To do this I created a `const` variable that had a `Math.floor(Math.random())` function assigned to it that gave me a random number between 1 and 43, which was the page numbers of all the characters (You access the characters and their relative data according to a page number in the API endpoint). I then concatenated this random number variable with my API endpoint and appended that randomnumber function, using jQuery's `.click()` event to run whenever the user clicks on the "give me more characters" button, after the user clicks the whole page reloads. I did that by adding a `window.location.reload();` function that I bound to the "give me more characters" button.
 
 #### Highlights
 
 <!-- stipulated the highlight you experienced with the project -->
 
-- What was good about this project, what did you learn.
-- What aspects did you enjoy.
+- The highlight oft this project was hosting it and seeing user engagement appear on google analytics and just receiving feedback in general
 
 #### Challenges
 
 <!-- stipulated the challenges you faced with the project and why you think you faced it or how you think you'll solve it (if not solved) -->
 
-- Bugs.
-- Bugs.
+- I struggled to implement a scoreboard on the test page and get it to work.
+- I also struggled with figuring how Bulma works and how its classes work.
+- Something which was tricky but that I got figured out, was to add a randomizer in the character list page to re-add randomised characters to the page dynamically
+- I struggled with adding pagnation and just added a random button on my character list page.
 
 #### Above And Beyond
 
-What aspects of this final build contribute to the `Above And Beyond` Component of your brief?
-
-<!-- what did you learn outside of the classroom and implement into your project-->
-
-- Name of Skill Explored.
-- Explain your understanding and execution of above skill.
+The aspects that I learned outside of lecture time and the brief, is that I learned a new framework called Bulma to make my website responsive. We were learnt Twitter Bootstrap but I wanted to go a different route and learn and implement Bulma, just to go that extra mile. It was hard but I managed to wrap my head around the framework. I lea
 
 ### Future Implementation
 
 <!-- stipulate functionality and improvements that can be implemented in the future. -->
 
-- Future 1.
-- Future 2.
+- My future implementation is to redo the entire test page and make it look more sleek and have better UX
+- I would also most likely redo this entire project, because it is not created and presented to my standard. I will most probably redo the project using a different framework like Tailwind CSS or a framework I am familiar with, which is Bootstrap.
 
 <!-- MOCKUPS -->
 
@@ -200,9 +179,10 @@ What aspects of this final build contribute to the `Above And Beyond` Component 
 
 ### Mockups
 
-![image9][image9]
+![image2](assets/img/Mockup1.jpg)
+![image3](assets/img/Mockup2.jpg)
+![image4](assets/img/Mockup3.jpg)
 <br>
-![image10][image10]
 
 <!-- VIDEO DEMONSTRATION -->
 
@@ -239,8 +219,8 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 
 <!-- all resources that you used and Acknowledgements here -->
 
-- [Resource Name](path/to/resource)
-- [Resource Name](path/to/resource)
+- [Rick n Morty API](https://rickandmortyapi.com/)
+- [Stack Overflow](https://stackoverflow.com/)
 - [Resource Name](path/to/resource)
 - [Resource Name](path/to/resource)
 - [Resource Name](path/to/resource)
