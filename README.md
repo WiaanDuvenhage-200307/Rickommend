@@ -109,7 +109,7 @@ Here are a couple of ways to clone this repo:
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
 
-![image2](https://raw.githubusercontent.com/WiaanDuvenhage-200307/rickommend/assets/img/Mockup1.jpg)
+![image2](assets/img/Mockup1.jpg)
 
 ### All the characters shown on Rick and Morty!
 
@@ -218,7 +218,7 @@ See the [open issues](https://github.com/WiaanDuvenhage-200307/rickommend/issues
 
 ## Authors
 
-- **Your Name & Surname** - [Wiaan Duvenhage](https://github.com/WiaanDuvenhage-200307)
+- **Your Name & Surname** - [Wiaan](https://github.com/WiaanDuvenhage-200307)
 
 <!-- LICENSE -->
 
@@ -230,7 +230,7 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 
 ## Contact
 
-- **Your Name & Surname** - [email@address](mailto:wiaanduvenhage.dev@gmail.com) - [@instagram_handle](https://www.instagram.com/double.u.dee.designs/)
+- **Your Name & Surname** - [wiaanduvenhage.dev@gmail.com](mailto:wiaanduvenhage.dev@gmail.com) - [@instagram_handle](https://www.instagram.com/double.u.dee.designs/)
 - **Project Link** - https://github.com/WiaanDuvenhage-200307/rickommend
 
 <!-- ACKNOWLEDGEMENTS -->
