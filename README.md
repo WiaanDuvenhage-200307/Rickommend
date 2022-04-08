@@ -27,7 +27,7 @@
     
    <br />
    <br />
-   <a href="path/to/demonstration/video">View Demo</a> <!-- !Upload Youtube Video to paste here -->
+   <a href="https://youtu.be/BMsNp2b9rIk">View Demo</a> <!-- !Upload Youtube Video to paste here -->
     ·
     <a href="https://github.com/WiaanDuvenhage-200307/rickommend/issues">Report Bug</a>
     ·
@@ -192,7 +192,7 @@ The aspects that I learned outside of lecture time and the brief, is that I lear
 
 To see a run through of the application, click below:
 
-[View Demonstration](path/to/video/demonstration)
+[View Demonstration](https://youtu.be/BMsNp2b9rIk)
 
 See the [open issues](https://github.com/WiaanDuvenhage-200307/rickommend/issues) for a list of proposed features (and known issues).
 
